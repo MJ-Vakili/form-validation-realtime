@@ -92,7 +92,7 @@ var usernameValidityChecks = [
 		isInvalid: function(input) {
 			return input.value.length < 3;
 		},
-		invalidityMessage: 'This input needs to be at least 3 characters',
+		invalidityMessage: 'باید بیشتر از 3 کارکتر باشد.',
 		element: document.querySelector('label[for="username"] .input-requirements li:nth-child(1)')
 	},
 	{
